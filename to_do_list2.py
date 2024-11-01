@@ -63,14 +63,16 @@ while True:
         3. 파일 내용 확인
         4. 종료
         원하는 기능의 번호를 입력하시오: ''')
-    filename = input("파일 이름을 입력해 주십시오: ")
     if select == "1":
+        filename = input("파일 이름을 입력해 주십시오: ")
         create_file(filename)
         display_file(filename)
     elif select == "2":
+        filename = input("파일 이름을 입력해 주십시오: ")
         display_file(filename)
         file_edi_del(filename)
     elif select == "3":
+        filename = input("파일 이름을 입력해 주십시오: ")
         display_file(filename)
     else:
         break
